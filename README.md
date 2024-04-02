@@ -28,30 +28,30 @@ Program to implement the the Logistic Regression Using Gradient Descent.
 Developed by: Guttha Keerthana
 RegisterNumber: 212223240045
 
-1.
+1. read_csv
 import pandas as pd
 data = pd.read_csv("Employee.csv")
 data.head()
 data.info()
 
-2.
+2. Null Values 
 data.isnull().sum()
 
-3.
+3. Left value count
 data["left"].value_counts
 
-4.
+4. Converting string to numerical
 from sklearn.preprocessing import LabelEncoder
 le= LabelEncoder()
 data["salary"]=le.fit_transform(data["salary"])
 data.head()
 
-5.
+5. Dispalying the rows
 x=data[["satisfaction_level","last_evaluation","number_project","average_montly_hours","time_spend_company","Work_accident","promotion_last_5years","salary"]]
 
 x.head()
 
-6.
+6. Decision Tree Classifier
 y=data["left"]
 
 from sklearn.model_selection import train_test_split
@@ -61,49 +61,49 @@ from sklearn.tree import DecisionTreeClassifier
 dt = DecisionTreeClassifier(criterion="entropy")
 dt.fit(x_train,y_train)
 
-7.
+7. Accuracy
 y_pred = dt.predict(x_test)
 from sklearn import metrics
 
 accuracy = metrics.accuracy_score(y_test,y_pred)
 accuracy
 
-8.
+8. Predicting Required values
 dt.predict([[0.5,0.8,9,260,6,0,1,2]])
 */
 ```
 
 ## Output:
 
-1
+1. read_csv
 
 ![](1.png)
 
-2
+2. Null Values 
 
 ![](2.png)
 
-3
+3. Left value count
 
 ![](3.png)
 
-4
+4. Converting string to numerical
 
 ![](4.png)
 
-5
+5. Dispalying the rows
 
 ![](5.png)
 
-6
+6. Decision Tree Classifier
 
 ![](6.png)
 
-7
+7. Accuracy
 
 ![](7.png)
 
-8
+8. Predicting Required values
 
 ![](8.png)
 
