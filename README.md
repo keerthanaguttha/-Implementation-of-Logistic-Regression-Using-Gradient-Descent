@@ -103,7 +103,7 @@ dt.predict([[0.5,0.8,9,260,6,0,1,2]])
 
 ![](7.png)
 
-8. Predicting Required values
+8. Data prediction
 
 ![](8.png)
 
