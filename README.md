@@ -84,24 +84,31 @@ print(y_prednew)
 ```
 ## Output:
 DATASET:
+
 ![image](https://github.com/keerthanaguttha/-Implementation-of-Logistic-Regression-Using-Gradient-Descent/assets/145742927/37f57e48-ca78-414a-8602-ba1732d1d449)
 
 Labelling data:
+
 ![image](https://github.com/keerthanaguttha/-Implementation-of-Logistic-Regression-Using-Gradient-Descent/assets/145742927/43d27412-c749-4776-babf-fb7a4098d924)
 
 Lablling the column:
+
 ![image](https://github.com/keerthanaguttha/-Implementation-of-Logistic-Regression-Using-Gradient-Descent/assets/145742927/921e5ebe-e913-421a-afc6-9c5dfb637ce9)
 
 Dependent Variables:
+
 ![image](https://github.com/keerthanaguttha/-Implementation-of-Logistic-Regression-Using-Gradient-Descent/assets/145742927/167f9a29-cd37-4d88-93a3-75db61629bab)
 
 Accuracy:
+
 ![image](https://github.com/keerthanaguttha/-Implementation-of-Logistic-Regression-Using-Gradient-Descent/assets/145742927/7dc8c795-1068-4811-9bc3-31c0135670b3)
 
 Y:
+
 ![image](https://github.com/keerthanaguttha/-Implementation-of-Logistic-Regression-Using-Gradient-Descent/assets/145742927/00a9d0da-d3c7-478a-a244-365579b0c59f)
 
 Y_pred:
+
 ![image](https://github.com/keerthanaguttha/-Implementation-of-Logistic-Regression-Using-Gradient-Descent/assets/145742927/a2a0216f-a843-4f2e-ad18-ff190132e9a9)
 
 New Predicted data:
